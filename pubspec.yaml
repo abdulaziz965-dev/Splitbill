@@ -1,0 +1,35 @@
+name: splitchain
+description: Blockchain-based Split Bill & Expense Manager
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Networking & blockchain
+  http: ^1.2.0
+  url_launcher: ^6.2.5
+  # Firebase / Firestore
+  firebase_core: ^2.27.0
+  cloud_firestore: ^4.15.0
+  # UI & animations
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  # QR code generation
+  qr_flutter: ^4.1.0
+  # Utils
+  uuid: ^4.3.3
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
